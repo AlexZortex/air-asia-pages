@@ -528,7 +528,7 @@ display: none;
 .inner-section{
  background: #F4F5F5;
  color: black;
- padding: 95px 0px;
+ padding: 5px 0px;
 }
 
 .inner-section--bg--grey{
@@ -558,7 +558,7 @@ display: none;
 .inner-footer{
   background: #001821;
   padding: 75px 0px;
-  height: 100px;
+  height: 90px;
 }
 
 .logo-footer-two{
@@ -572,7 +572,7 @@ display: none;
 }
 
 .inner-footer__section{
-  padding: 45px 0px;
+  padding: 75px 0px 0px 0px;
 }
 
 .inner-footer{
