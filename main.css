@@ -582,3 +582,21 @@ display: none;
 .pagination{
   margin-bottom: 50px;
 }
+
+.logo__img--two{
+  display: flex;
+  justify-content: start;
+  padding: 0px 0px 0px 55px;
+}
+
+.socials__list--two{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 100px 0px 690px;
+}
+
+.menu__list--two{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 100px 0px 50px;
+}
