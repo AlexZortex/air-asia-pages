@@ -388,8 +388,8 @@ footer{
 }
 
 .menu-footer{
-  position: absolute;
-  left: 164px;
+  display: flex;
+  padding: 0px 0px 0px 100px;
 }
 
 .socials__list{
@@ -497,6 +497,10 @@ display: none;
   margin-bottom: 50px;
 }
 
+.service:last-child{
+  margin-bottom: 0;
+}
+
 .services__img{
   width: 40%;
   margin-right: 7%;
@@ -538,7 +542,8 @@ display: none;
 .inner-section__title{
   font-size: 48px;
   font-weight: bold;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+  margin-top: 35px;
 }
 
 .partners__link{
@@ -559,16 +564,6 @@ display: none;
   background: #001821;
   padding: 75px 0px;
   height: 90px;
-}
-
-.logo-footer-two{
-  position: absolute;
-  left: 150px;
-}
-
-.menu-footer-two{
-  position: absolute;
-  left: 300px;
 }
 
 .inner-footer__section{
@@ -592,11 +587,20 @@ display: none;
 .socials__list--two{
   display: flex;
   justify-content: space-between;
-  padding: 0px 100px 0px 690px;
+  padding: 0px 25px 0px 675px;
+  margin-top: -27px;
 }
 
 .menu__list--two{
   display: flex;
   justify-content: space-between;
   padding: 0px 100px 0px 50px;
+}
+
+.contacts__text-info{
+  width: 1140px;
+}
+
+.contacts-footer{
+  margin-top: -55px;
 }
