@@ -367,8 +367,10 @@ padding-right: 28px;
 }
 
 footer{
-  height: 55px;
-  position: relative;
+  min-height: 55px;
+  display: flex;
+  align-items: center;
+  background: #001821;
 }
 
 .socials__item{
@@ -378,18 +380,22 @@ footer{
 
 .logo__img{
   display: block;
-  position: absolute;
-  left: 0;
+  padding-right: 60px;
+  padding-left: 155px;
 }
 
 .menu-footer{
   display: flex;
-  padding: 0px 0px 0px 100px;
 }
 
 .socials__list{
   text-align: right;
- margin-right: 250px;
+  margin-right: 100px;
+  padding-left: 250px;
+}
+
+socials-footer{
+  margin-left: auto;
 }
 
 .socials__item{
@@ -410,7 +416,6 @@ hr{
 
 .contacts-footer{
   text-align: right;
-  margin-top: -49px;
 }
 
 .socials__icon1:hover{
@@ -590,8 +595,4 @@ display: none;
   display: flex;
   justify-content: space-between;
   padding: 0px 100px 0px 50px;
-}
-
-.contacts-footer{
-  margin-top: -55px;
 }
