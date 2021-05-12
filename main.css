@@ -84,11 +84,6 @@ body{
    margin-top: -35px;
  }
 
-.menu__list{
-  margin-right: 400px;  
- }
-
-
  .menu__item{
    display: inline-block;
    vertical-align: middle;
@@ -409,7 +404,7 @@ hr{
   background: #FFFFFF;
   mix-blend-mode: normal;
   opacity: 0.1;
-  width: 1141px;
+  width: 1140px;
   margin-bottom: 45px;
 }
 
@@ -595,10 +590,6 @@ display: none;
   display: flex;
   justify-content: space-between;
   padding: 0px 100px 0px 50px;
-}
-
-.contacts__text-info{
-  width: 1140px;
 }
 
 .contacts-footer{
