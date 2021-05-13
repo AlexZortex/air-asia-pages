@@ -402,7 +402,7 @@ socials-footer{
 .socials__item:last-child{
   margin-right: 0;
 }
-
+/* полоска над футером */
 hr{
   background: #FFFFFF;
   mix-blend-mode: normal;
