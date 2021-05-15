@@ -386,8 +386,6 @@ footer{
 
 .socials__list{
   text-align: right;
-  margin-right: 100px;
-  padding-left: 250px;
 }
 
 socials-footer{
@@ -591,4 +589,32 @@ display: none;
   display: flex;
   justify-content: space-between;
   padding: 0px 100px 0px 50px;
+}
+
+.container-footer{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.menu-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.menu__list{
+  width: 261px;
+}
+
+.socials-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contacts-footer{
+  display: flex;
+
 }
