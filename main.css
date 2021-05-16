@@ -97,6 +97,14 @@ body{
    font-size: 14px;
    text-decoration: none;
  }
+
+ .menu-header{
+   margin-left: -450px ;
+ }
+
+ .menu-header-two{
+   margin-left: -150px;
+ }
  
  .contacts{
    font-style: normal;
@@ -143,6 +151,7 @@ body{
   color: #F5170E;
   border-color: #F5170E;
   border:2px solid #F5170E;
+  
 }
 
 .offers{
