@@ -166,6 +166,7 @@ button{
   color: #F5170E;
   border-color: #F5170E;
   border:2px solid #F5170E;
+  transition: .3s;
   
 }
 
@@ -292,18 +293,18 @@ padding-right: 28px;
 }
 
 .pagination__info{
-  display: inline-block;
+  display: inline-flex;
+  vertical-align: middle;
 }
 
 .pagination__list, .pagination__display{
-  display: inline-block;
-  vertical-align: middle;
+  display: inline-flex;
+  
 }
 
 .pagination__display{
   margin-right: 35px;
   display: inline-block;
-  margin-top: -151px;
 }
 
 .pagination__item{
@@ -324,7 +325,6 @@ padding-right: 28px;
   text-decoration: none;
   font-weight: bold;
   line-height: 32px;
-  margin-bottom: 151px;
 }
 
 .pagination__number-2{
@@ -336,17 +336,18 @@ padding-right: 28px;
   text-decoration: none;
   font-weight: bold;
   line-height: 32px;
-  margin-bottom: 151px;
 }
 
 .pagination__number:hover{
  background: #fff;
  color: #F5170E;
+ transition: 0.5s;
 }
 
 .pagination__number-2:hover{
   background: #F5170E;
   color: #FFFFFF;
+  transition: 0.5s;
 }
 
 .about:before{
@@ -394,6 +395,7 @@ footer{
   display: flex;
   align-items: center;
   background: #001821;
+  padding: 50px 0px;
 }
 
 .socials__item{
@@ -429,7 +431,6 @@ hr{
   mix-blend-mode: normal;
   opacity: 0.1;
   width: 1140px;
-  margin-bottom: 45px;
 }
 
 .contacts-footer{
@@ -550,7 +551,7 @@ display: none;
 .inner-section{
  background: #F4F5F5;
  color: black;
- padding: 5px 0px;
+ padding: 65px 0px;
 }
 
 .inner-section--bg--grey{
@@ -650,11 +651,10 @@ display: none;
 
 .welcome-page{
  display: flex;
- position: fixed;
  top: 0;
  left: 0;
- width: 1325px;
- height: 630px;
+ right: 0;
+ bottom: 0;
  align-items: center;
  justify-content: center;
   background: url(./img/bg.png) center bottom / cover no-repeat;
@@ -748,7 +748,7 @@ display: none;
   margin-bottom: 11px;
   margin-left: 20px;
   text-decoration: underline;
-  
+  transition: 0.3s;
 }
 
 .review__user:after{
@@ -818,9 +818,7 @@ display: none;
   left: 600px;
 }
 
-.pagination-reviews{
-  margin-bottom: -150px;
-}
+
 
 .form__row{
   display: flex;
@@ -876,7 +874,10 @@ font-family: sans-serif;
   flex: 1;
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: -10px;
+  margin-right: -10px;
 }
+
 
 .control__item{
   margin-bottom: 10px;
@@ -899,10 +900,15 @@ font-family: sans-serif;
   text-decoration: none;
 }
 
+.inner-section--bg--grey--reviews{
+  padding-bottom: 100px;
+}
+
 .button--color--grey:hover{
   background: black;
   color: #FFFFFF;
   border-color: black;
+  transition: 0.3s;
 }
 
 .form__button{
@@ -916,5 +922,4 @@ font-family: sans-serif;
 .form__buttons{
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 100px;
 }
