@@ -8,7 +8,8 @@
   <link rel="stylesheet" href="main.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="">
+
+  <link rel="stylesheet" href="dropdown.css">
   <title>Air-Asia | Rewiews page</title>
 </head>
 
@@ -32,7 +33,13 @@
           <div class="header__col header__col--align--right">
             <address class="contacts">
               <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-              <div class="contacts__info">График работы</div>
+            <div class="contacts__schedule_wrap">
+              <a class="contacts__schedule">График работы</a>
+              <div class="contacts__menu dropdown">
+                <div class="dropdown__days">пн-вс: 09:00 - 20:00</div>
+                <div class="dropdown__time">Обед: 14:00-14:30</div>
+              </div>
+            </div>
             </address>
           </div>
         </header>
