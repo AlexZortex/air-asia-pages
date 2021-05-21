@@ -101,7 +101,7 @@ button{
 
  .logo{
    display: block;
-   margin-right: 200px;
+   margin-right: 50px;
  }
 
  .menu__item{
@@ -120,12 +120,10 @@ button{
  }
 
  .menu-header{
-   margin-left: -450px ;
+   margin-left: -400px ;
  }
 
- .menu-header-two{
-   margin-left: -150px;
- }
+
  
  .contacts{
    font-style: normal;
