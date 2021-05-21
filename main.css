@@ -165,6 +165,7 @@ button{
   font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
+  border:2px solid #F5170E;
 }
 
 .button:hover{
@@ -354,6 +355,12 @@ padding-right: 28px;
   background: #F5170E;
   color: #FFFFFF;
   transition: 0.5s;
+}
+
+.pagination__item--active{
+  background: #F5170E;
+  color: #FFFFFF;
+  border-radius: 100%;
 }
 
 .about:before{
@@ -636,7 +643,7 @@ display: none;
 }
 
 .menu__list{
-  width: 261px;
+  width: 265px;
 }
 
 .socials-footer{
@@ -727,6 +734,10 @@ display: none;
   border-radius: 5px;
 }
 
+.review__userdata{
+  margin-left: 20px;
+}
+
 .review__header{
   display: flex;
   align-items:center;
@@ -740,7 +751,6 @@ display: none;
   font-weight:bold;
   color: #1A1B1E;
   margin-bottom: 11px;
-  margin-left: 20px;
   text-decoration: none;
 }
 
@@ -751,7 +761,6 @@ display: none;
   font-weight:bold;
   color: #2E77A4;
   margin-bottom: 11px;
-  margin-left: 20px;
   text-decoration: underline;
   transition: 0.3s;
 }
@@ -764,7 +773,6 @@ display: none;
 .review__tags{
   display: flex;
   align-items: flex-start;
-  margin-left: 20px;
 }
 
 .tag{
@@ -805,22 +813,24 @@ display: none;
 }
 
 .separator__title{
-  position: relative;
-  top: 220px;
+  display: flex;
+
+  align-items: center;
   font-weight: bold;
   font-size:  48px;
   line-height: 1.1;
 }
 
 .separator__content{
-  max-width: 50%;
+  max-width: 95%;
+  display: flex;
 }
 
 .separator__img{
   display: flex;
   align-items: flex-end;
   position: relative;
-  left: 600px;
+  top:10px;
 }
 
 
@@ -903,6 +913,7 @@ font-family: sans-serif;
   font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
+  border: 2px solid #2b2b2b;
 }
 
 .inner-section--bg--grey--reviews{
@@ -913,7 +924,7 @@ font-family: sans-serif;
   background: black;
   color: #FFFFFF;
   border-color: black;
-  transition: 0.3s;
+  transition: 0.4s;
 }
 
 .form__button{
@@ -928,3 +939,4 @@ font-family: sans-serif;
   display: flex;
   justify-content: flex-end;
 }
+
