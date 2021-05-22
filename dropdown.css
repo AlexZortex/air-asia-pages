@@ -10,7 +10,7 @@
 }
 
 .contacts__schedule_wrap{
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .contacts__schedule_wrap:hover .dropdown{
@@ -48,9 +48,9 @@
 .dropdown::after{
   content:"";
   position: absolute;
-  border: 20px solid transparent;
+  border: 15px solid transparent;
   border-bottom-color:#ededed;
   border-top-width: 0;
-  top:-20px;
-  right:20px;
+  top:-15px;
+  right:34px;
 }

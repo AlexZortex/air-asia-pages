@@ -448,6 +448,7 @@ hr{
   text-align: right;
 }
 
+
 .socials__icon1:hover{
   background-image: url(img/t.png);
 }
@@ -936,6 +937,10 @@ font-family: sans-serif;
 .form__buttons{
   display: flex;
   justify-content: flex-end;
+}
+
+.active--menu__link{
+color: red;
 }
 
 /* конец кода */
