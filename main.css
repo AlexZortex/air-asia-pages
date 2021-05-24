@@ -406,7 +406,13 @@ footer{
   display: flex;
   align-items: center;
   background: #001821;
-  padding: 50px 0px;
+}
+
+.contacts-footer--two{
+  top: 75px;
+  position: relative;
+  text-align: right;
+  height: 100px;
 }
 
 .socials__item{
@@ -448,19 +454,19 @@ hr{
   text-align: right;
 }
 
-.telegram .socials__link{
+.telegram {
   background-image: url(img/telegram.png);
 }
 
-.vk .socials__link {
-  background-image: url(img/vk.png);
+.vk {
+  background-image: url(img/vk.png) ;
 }
 
-.facebook .socials__link {
+.facebook  {
   background-image: url(img/f.png);
 }
 
- .inst .socials__link{
+ .inst {
   background-image: url(img/in.png);
 }
 .telegram:hover{
